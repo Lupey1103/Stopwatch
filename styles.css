@@ -1,0 +1,58 @@
+body {
+  background: teal;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  font-family: "Unbounded", cursive;
+  font-size: 100px;
+}
+
+.timer {
+  display: flex;
+  font-family: "MuseoModerno", cursive;
+  font-size: 200px;
+}
+
+.start {
+  border-radius: 30px;
+  font-family: "Unbounded", cursive;
+  font-size: 40px;
+  background: green;
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.stop {
+  border-radius: 30px;
+  font-family: "Unbounded", cursive;
+  font-size: 40px;
+  background: red;
+  width: 200px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.reset {
+  border-radius: 30px;
+  font-family: "Unbounded", cursive;
+  font-size: 40px;
+  background: blue;
+  width: 200px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.start:hover,
+.stop:hover,
+.reset:hover {
+  background: white;
+}
